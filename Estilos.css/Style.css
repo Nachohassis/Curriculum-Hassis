@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.print-area{
+    width: 80%;
+    margin: 20px auto;
+}
+.print-area .Header{
+    width: 100% ;
+    height: 150px ;
+    background-color: rgb(43, 43, 206);
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.Header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 65px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px gray;
+    cursor: pointer;
+    transition: 15s;
+    user-select: none;
+    filter: grayscale(0%);
+
+}
+.Header img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05%);
+    box-shadow: 3px 3px 20px gray;
+}
+
+.header-text{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+}
+.header-text h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+.header-text p{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.area-izquierda{
+    width: 30%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.area-izquierda .contacto{
+    margin-top: 130px;
+    padding: 0 30px;
+ }
+ .contacto h4{
+    font-size: 35px;
+    font-weight: normal;
+    margin: 20px 0;
+ }
+ .contacto h5{
+    font-size: 18px;
+    margin: 10px 0;
+ }
+.contacto p{
+    font-size: 17px;
+
+}
+
+.area-izquierda .Disposición{
+    margin-top: 50px;
+    padding: 0 20px;
+
+}
+.Disposición h4{
+    font-size: 35px;
+    font-weight: normal;
+    margin: 15px 0;
+
+}
+.Disposición li{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.area-izquierda .Historial-academico{
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.Historial-academico h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 15px 0; 
+}
+
+.area-derecha{
+    width:70%;
+    padding: 50px;
+}
+.area-derecha h1{
+    font-size: 35px;
+    font-weight: normal;
+    padding: 15px;
+}
+.area-derecha h1 span{
+    margin-right: 30px;
+    font-size: 50px;
+    color: blue;
+    }
+
+.Trabajo .Trabajos{
+    position: relative;
+   
+    }
+.Trabajos h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 70px;
+
+}
+.Trabajos h4{
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 70px;
+    color: blue;
+
+}
+
+.Trabajos span{
+    position: absolute;
+    top: 10px;
+    right:0;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Trabajos p{
+    overflow-wrap: break-word;
+}
+
+.Mis-redes{
+ margin-top: 20%;
+}
+.Mis-redes h1{
+    font-size: 30px;
+    font-weight: normal;
+   
+}
+.Mis-redes ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background: aliceblue ;
+    overflow: hidden;
+}
+.Mis-redes li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 60px;
+    text-decoration: none;
+}
+.Mis-redes a:hover{
+ color: rgb(51, 13, 13);
+}
